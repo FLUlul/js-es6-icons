@@ -30,6 +30,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 5px 1px 1px;
 }
 
 #selector{

@@ -25,10 +25,9 @@ dropDownMenu.addEventListener("change",
             if(dropDownMenu.value === icon.type || dropDownMenu.value === "all"){
                 iconsPrintHtml (icon.family, icon.prefix, icon.name, icon.color, icon.type);
             }
-        });  
+        });
     }
 )
-
 
 function iconsPrintHtml (family, prefix, name, color, type){
     containerGeneral.innerHTML += `
