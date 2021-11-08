@@ -22,9 +22,7 @@ dropDownMenu.addEventListener("change",
         containerGeneral.innerHTML = "";
         console.log(dropDownMenu.value);
         icons.forEach((icon) => {
-            if(dropDownMenu.value === icon.type){
-                iconsPrintHtml (icon.family, icon.prefix, icon.name, icon.color, icon.type);
-            }else if (dropDownMenu.value === "all"){
+            if(dropDownMenu.value === icon.type || dropDownMenu.value === "all"){
                 iconsPrintHtml (icon.family, icon.prefix, icon.name, icon.color, icon.type);
             }
         });  
