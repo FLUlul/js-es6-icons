@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+h2{
+    background-color: white;
+    color: steelblue;
 }
 
 #container {
@@ -12,10 +18,22 @@ body{
     flex-wrap: wrap;
 }
 
-#icon{
-    text-align: center;
+.icon{
     border: solid black 2px;
     border-radius: 5px;
-    width: calc(100% / 5);
+    margin: 10px 25px;
+    width: calc(100% / 5 - 50px);
+    height: 200px;
     text-transform: uppercase;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#selector{
+    text-align: center;
+    background-color:steelblue;
+    padding: 20px 0;
 }
